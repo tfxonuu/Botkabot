@@ -187,7 +187,7 @@ async def account_login(bot: Client, m: Message):
                     url = res["url"]
 
             elif "d1d34p8vz63oiq" in url or "sec1.pw.live" in url:
-                url = f"https://anonymouspwplayer-b99f57957198.herokuapp.com/pw?url={url}?token={working_token}"
+                url = f"https://anonymouspwplayer-b99f57957198.herokuapp.com/pw?url={url}?token={eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NjQ5NDYyMzIuMzU4LCJkYXRhIjp7Il9pZCI6IjY3MDg4YmUzMjFhZjNlMDVhNWMyMGRlMiIsInVzZXJuYW1lIjoiOTU0OTc2MTQwMyIsImZpcnN0TmFtZSI6IlNoYWhuYXdheiIsImxhc3ROYW1lIjoibmFnb3JpIiwib3JnYW5pemF0aW9uIjp7Il9pZCI6IjVlYjM5M2VlOTVmYWI3NDY4YTc5ZDE4OSIsIndlYnNpdGUiOiJwaHlzaWNzd2FsbGFoLmNvbSIsIm5hbWUiOiJQaHlzaWNzd2FsbGFoIn0sImVtYWlsIjoiaWFtdGZzb251QGdtYWlsLmNvbSIsInJvbGVzIjpbIjViMjdiZDk2NTg0MmY5NTBhNzc4YzZlZiIsIjVjYzk1YTJlOGJkZTRkNjZkZTQwMGIzNyJdLCJjb3VudHJ5R3JvdXAiOiJJTiIsIm9uZVJvbGVzIjpbXSwidHlwZSI6IlVTRVIifSwiaWF0IjoxNzY0MzQxNDMyfQ.qWmcfbGs6njAMRnHgj7z5aV_yuLOk71suuraJrL4lc8}"
                 
             else:
                 url = url
